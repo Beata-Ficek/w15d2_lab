@@ -35,7 +35,7 @@ class FilmContainer extends React.Component {
   render(){
     return (
       <div>
-        <h2>Film Container</h2>
+        <h2>Ghibli Films</h2>
         <FilmSelector films={this.state.films} onFilmSelected={this.handleFilmSelected} />
         <FilmDetail film={this.state.currentFilm} />
       </div>
